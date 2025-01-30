@@ -5,7 +5,7 @@ class Person {
 		this.age=age;
 	}
 	get modifiedName() {
-		console.log("Person name is - "+this.name);
+		return "Person name is - "+this.name;
 	}
 	set modifiedAge(age){
 		this.age=age;
@@ -30,11 +30,13 @@ class Teacher extends Person {
 	}
 }
 const person=new Person("john",25);
-console.log(Person);
+console.log(person);
 console.log(person.modifiedName);
-Person.modifiedAge="32";
-console.log(Person);
+Person.modifiedAge=32;
+console.log(Person.age);
+const student=new Student("Alice",22);
 student.study();
+const teacher=new Teacher("Bob",40);
 teacher.teach();
 
 // Do not change the code below this line
