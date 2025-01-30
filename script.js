@@ -30,9 +30,8 @@ class Teacher extends Person {
 	}
 }
 const person=new Person("John",25);
-console.log(person);
-console.log(person.age);
 console.log(person.name);
+console.log(person.age);
 console.log(person.modifiedName);
 person.modifiedAge=30;
 console.log(person.age);
