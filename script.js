@@ -34,7 +34,7 @@ console.log(person);
 console.log(person.age);
 console.log(person.name);
 console.log(person.modifiedName);
-person.modifiedAge=32;
+person.modifiedAge=30;
 console.log(person.age);
 const student=new Student("Alice",22);
 student.study();
